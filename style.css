@@ -54,10 +54,15 @@ img {
     margin-right: 3%;
 }
 
+#div2 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 #div3 { 
     border-left: 1px solid;
     padding: 0;
-    margin-right: 3%;
+    margin-left: 3%;
 }
 
 .low-banner a {
