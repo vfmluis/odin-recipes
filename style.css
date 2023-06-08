@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 h1 {
     margin-bottom: 1em;
 }
@@ -22,6 +25,45 @@ img {
 }
 
 .card-content {
-    text-align: left;
-    padding-left: 2%;
+    display: inline-block;
+    text-align: center;
+    margin: 5% auto 0;
+    width: 100%;
+}
+
+.low-banner {
+    background-color: black;
+    color: white;
+    font-size: 180%;
+    text-align: center;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.low-banner div {
+    display: inline-block;
+    background-color: black;
+    border-color: white;
+    width: 29%;
+    padding: 1% 2%;
+}
+
+#div1 {
+    border-right: 1px solid;
+    padding: 0;
+    margin-right: 3%;
+}
+
+#div3 { 
+    border-left: 1px solid;
+    padding: 0;
+    margin-right: 3%;
+}
+
+.low-banner a {
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+    vertical-align: 25%;
+    padding: 10px 10%;
 }
